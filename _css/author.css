@@ -9,11 +9,41 @@ body {
 	position: fixed;
 	left:10px;
 
+<<<<<<< HEAD
+=======
+#title {
+	position: fixed;
+	left:10px;
+
+>>>>>>> 297c629095fe379edbb9042b4cfd4bf451800752
 	top:75px;
 
 }
 
 header img {
+<<<<<<< HEAD
+
+	width: 100%;
+}
+
+h1 {
+	text-align: center;
+	font-family: Arial Rounded MT Bold;
+	font-size: 30px;
+	color:#ff792a;
+
+
+	position: fixed;
+	left:106px;
+	top:80px;
+}
+#stage {
+	position: fixed;
+	left:65px;
+	top:155px;
+
+	width:60%;
+=======
 
 	width: 100%;
 }
@@ -67,11 +97,60 @@ h1 {
 }
 #content p a.button:active {
 	background-position: 5px 200px;
+>>>>>>> 297c629095fe379edbb9042b4cfd4bf451800752
+}
+
+#content {
+	text-align: center;
+
+	position: fixed;
+	left:72px;
+	top:225px;
+
+}
+
+#content a {
+	color:black;
+	font-family: Arial Rounded MT Bold;
+	text-decoration: none;
+
+}
+
+
+#content p a.button {
+	display: block; 
+	width: 163px; height: 43px;
+	background-image: url(../_images/button.png); 
+	background-position: 5px 297px; 
+	text-indent: -9999px; 
+}
+
+#content p a.button:hover {
+	background-position: 5px 249px; 
+}
+#content p a.button:active {
+	background-position: 5px 200px;
+}
+
+.level01_button p a.levelbutton {
+	display: block; 
+	width: 87px; height: 86px;
+	background-image: url(../_images/level01_button.png); 
+	background-position: 5px 297px; 
+	text-indent: -9999px; 
+}
+
+.level01_button p a.levelbutton:hover {
+	background-position: 5px 249px; 
+}
+.level01_button p a.levelbutton:active {
+	background-position: 5px 200px;
 }
 
 #shrub01 {
 	position: fixed;
 	z-index: 200;
+<<<<<<< HEAD
 	top:490px;
 	left:-40px;
 
@@ -84,14 +163,37 @@ h1 {
 	left: -1px;
 
 	width: 100%;
+=======
+	top:410px;
+	left:-40px;
+
+	width: 100%;
+}
+
+#shrub02 {
+	position: fixed;
+	top:-8px;
+	left: -1px;
+
+	width: 100%;
+>>>>>>> 297c629095fe379edbb9042b4cfd4bf451800752
 }
 
 #tree01 {
 	position: fixed;
 	left: 13px;
+<<<<<<< HEAD
 	top: 400px;
 	z-index: 100;
 
+}
+=======
+	top: 320px;
+	z-index: 100;
+>>>>>>> 297c629095fe379edbb9042b4cfd4bf451800752
+
+#tree01 img {
+	width: 57%;
 }
 
 #tree01 img {
@@ -101,6 +203,7 @@ h1 {
 #tree02 {
 	position: fixed;
 	right: -46px;
+<<<<<<< HEAD
 	top: 400px;
 	z-index: 100;
 }
@@ -195,3 +298,12 @@ h1 {
 #shrub_middlebottom2 {
 	width: 60%;
 }
+=======
+	top: 320px;
+	z-index: 100;
+}
+
+#tree02 img {
+	width: 57%;
+}
+>>>>>>> 297c629095fe379edbb9042b4cfd4bf451800752
