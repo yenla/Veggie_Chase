@@ -1,52 +1,197 @@
 body {
-	
-	width: 640px;
-	height: 960px;
-	border: 1px solid black;
+		
+	width: 100%;
+	height: 100%;
+	background-color: #a6d8ff;
 }
+/*---------------------------------------Main--------------------------------------------*/
+#title {
+	position: fixed;
+	left:10px;
 
-.content { 
+	top:75px;
 
-	background-color: #a6d8ff; 
-	width: 640px;
-	height: 960px;
-}
-
-header {
-
-	position: absolute;
-	left:100px;
-	right:0;
-	top:90px;
 }
 
 header img {
 
-	height:138px;
-	width:440px;
+	width: 100%;
+}
+
+h1 {
+	text-align: center;
+	font-family: Arial Rounded MT Bold;
+	font-size: 30px;
+	color:#ff792a;
+
+
+	position: fixed;
+	left:106px;
+	top:80px;
+}
+#stage {
+	position: fixed;
+	left:65px;
+	top:155px;
+
+	width:60%;
+}
+
+#content {
+	text-align: center;
+
+	position: fixed;
+	left:72px;
+	top:225px;
+
+}
+
+#content a {
+	color:black;
+	font-family: Arial Rounded MT Bold;
+	text-decoration: none;
+
 }
 
 
+#content p a.button {
+	display: block; 
+	width: 163px; height: 43px;
+	background-image: url(../_images/button.png); 
+	background-position: 5px 297px; 
+	text-indent: -9999px; 
+}
+
+#content p a.button:hover {
+	background-position: 5px 249px; 
+}
+#content p a.button:active {
+	background-position: 5px 200px;
+}
+
 #shrub01 {
 	position: fixed;
-/*	margin-top:797px;*/
 	z-index: 200;
-	top:350px;
+	top:490px;
+	left:-40px;
 
+	width: 100%;
+}
+
+#shrub02 {
+	position: fixed;
+	top:-8px;
+	left: -1px;
+
+	width: 100%;
 }
 
 #tree01 {
 	position: fixed;
-    left: 35px;
-    top: 178px;
-    z-index: 100;
+	left: 13px;
+	top: 400px;
+	z-index: 100;
 
+}
+
+#tree01 img {
+	width: 57%;
 }
 
 #tree02 {
 	position: fixed;
-    left: 477px;
-    top: 178px;
-    z-index: 90;
+	right: -46px;
+	top: 400px;
+	z-index: 100;
+}
 
+#tree02 img {
+	width: 57%;
+}
+
+/*----------------------------------------Stages Page----------------------------------------*/
+
+.level01_button {
+
+	position: fixed;
+	left:58px;
+	top:345px;
+}
+
+.level01_button p a.levelbutton {
+	display: block; 
+	width: 50px; height: 42px;
+	background-image: url(../_images/level01_button.png); 
+	background-position: 5px 82px; 
+	text-indent: -9999px; 
+
+}
+
+.level01_button p a.levelbutton:hover {
+	background-position: 5px 42px; 
+}
+.level01_button p a.levelbutton:active {
+	background-position: 5px 42px;
+}
+
+/*----------------------------------------Level01 Page----------------------------------------*/
+
+#shrub_top {
+	position: fixed;
+	top:35px;
+}
+
+#shrub_top img {
+	width:95%
+}
+
+#shrub_bottom {
+	position: fixed;
+	z-index: 200;
+	top:500px;
+
+}
+
+#shrub_bottom img {
+	width: 95%
+}
+
+
+#shrub_left {
+	position: fixed;
+	left:15px;
+	top:70px;
+
+}
+
+#shrub_left img {
+	width: 60%;
+}
+
+#shrub_right {
+	position: fixed;
+	left:240px;
+	top:70px;
+}
+
+#shrub_right img {
+	width: 60%;
+}
+
+#shrub_middletop {
+	width: 60%;
+}
+
+#shrub_middletop2 {
+	width: 60%;
+}
+
+
+#shrub_middlebottom {
+	width: 60%;
+}
+
+
+#shrub_middlebottom2 {
+	width: 60%;
 }
