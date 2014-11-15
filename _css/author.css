@@ -8,12 +8,53 @@ body {
 #title {
 	position: fixed;
 	left:10px;
+<<<<<<< HEAD
 
+=======
+
+<<<<<<< HEAD
+=======
+#title {
+	position: fixed;
+	left:10px;
+
+>>>>>>> 297c629095fe379edbb9042b4cfd4bf451800752
+>>>>>>> 7377e198daddcb3ab45e1ab5c54592bc5a58239c
 	top:75px;
 
 }
 
 header img {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 7377e198daddcb3ab45e1ab5c54592bc5a58239c
+
+	width: 100%;
+}
+
+h1 {
+	text-align: center;
+	font-family: Arial Rounded MT Bold;
+	font-size: 30px;
+	color:#ff792a;
+
+
+	position: fixed;
+	left:106px;
+	top:80px;
+}
+#stage {
+	position: fixed;
+	left:65px;
+	top:155px;
+<<<<<<< HEAD
+
+	width:60%;
+=======
+
+	width:60%;
+=======
 
 	width: 100%;
 }
@@ -67,11 +108,67 @@ h1 {
 }
 #content p a.button:active {
 	background-position: 5px 200px;
+>>>>>>> 297c629095fe379edbb9042b4cfd4bf451800752
+>>>>>>> 7377e198daddcb3ab45e1ab5c54592bc5a58239c
 }
+
+#content {
+	text-align: center;
+
+	position: fixed;
+	left:72px;
+	top:225px;
+
+}
+
+#content a {
+	color:black;
+	font-family: Arial Rounded MT Bold;
+	text-decoration: none;
+
+}
+
+
+#content p a.button {
+	display: block; 
+	width: 163px; height: 43px;
+	background-image: url(../_images/button.png); 
+	background-position: 5px 297px; 
+	text-indent: -9999px; 
+}
+
+#content p a.button:hover {
+	background-position: 5px 249px; 
+}
+#content p a.button:active {
+	background-position: 5px 200px;
+}
+<<<<<<< HEAD
+=======
+
+.level01_button p a.levelbutton {
+	display: block; 
+	width: 87px; height: 86px;
+	background-image: url(../_images/level01_button.png); 
+	background-position: 5px 297px; 
+	text-indent: -9999px; 
+}
+
+.level01_button p a.levelbutton:hover {
+	background-position: 5px 249px; 
+}
+.level01_button p a.levelbutton:active {
+	background-position: 5px 200px;
+}
+>>>>>>> 7377e198daddcb3ab45e1ab5c54592bc5a58239c
 
 #shrub01 {
 	position: fixed;
 	z-index: 200;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 7377e198daddcb3ab45e1ab5c54592bc5a58239c
 	top:490px;
 	left:-40px;
 
@@ -84,23 +181,62 @@ h1 {
 	left: -1px;
 
 	width: 100%;
+<<<<<<< HEAD
+=======
+=======
+	top:410px;
+	left:-40px;
+
+	width: 100%;
+}
+
+#shrub02 {
+	position: fixed;
+	top:-8px;
+	left: -1px;
+
+	width: 100%;
+>>>>>>> 297c629095fe379edbb9042b4cfd4bf451800752
+>>>>>>> 7377e198daddcb3ab45e1ab5c54592bc5a58239c
 }
 
 #tree01 {
 	position: fixed;
 	left: 13px;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 7377e198daddcb3ab45e1ab5c54592bc5a58239c
 	top: 400px;
 	z-index: 100;
 
 }
+<<<<<<< HEAD
+
+#tree01 img {
+	width: 57%;
+=======
+=======
+	top: 320px;
+	z-index: 100;
+>>>>>>> 297c629095fe379edbb9042b4cfd4bf451800752
 
 #tree01 img {
 	width: 57%;
 }
 
+#tree01 img {
+	width: 57%;
+>>>>>>> 7377e198daddcb3ab45e1ab5c54592bc5a58239c
+}
+
 #tree02 {
 	position: fixed;
 	right: -46px;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 7377e198daddcb3ab45e1ab5c54592bc5a58239c
 	top: 400px;
 	z-index: 100;
 }
@@ -149,6 +285,7 @@ h1 {
 	position: fixed;
 	z-index: 200;
 	top:500px;
+<<<<<<< HEAD
 
 }
 
@@ -221,5 +358,60 @@ h1 {
 	position: fixed;
 	left:32px;
 	top:268px;
+=======
+>>>>>>> 7377e198daddcb3ab45e1ab5c54592bc5a58239c
 
 }
+
+#shrub_bottom img {
+	width: 95%
+}
+
+
+#shrub_left {
+	position: fixed;
+	left:15px;
+	top:70px;
+
+}
+
+#shrub_left img {
+	width: 60%;
+}
+
+#shrub_right {
+	position: fixed;
+	left:240px;
+	top:70px;
+}
+
+#shrub_right img {
+	width: 60%;
+}
+
+#shrub_middletop {
+	width: 60%;
+}
+
+#shrub_middletop2 {
+	width: 60%;
+}
+
+
+#shrub_middlebottom {
+	width: 60%;
+}
+
+
+#shrub_middlebottom2 {
+	width: 60%;
+}
+=======
+	top: 320px;
+	z-index: 100;
+}
+
+#tree02 img {
+	width: 57%;
+}
+>>>>>>> 297c629095fe379edbb9042b4cfd4bf451800752
