@@ -8,21 +8,16 @@ body {
 #title {
 	position: fixed;
 	left:10px;
+}
 
-<<<<<<< HEAD
-=======
 #title {
 	position: fixed;
 	left:10px;
-
->>>>>>> 297c629095fe379edbb9042b4cfd4bf451800752
 	top:75px;
 
 }
 
 header img {
-<<<<<<< HEAD
-
 	width: 100%;
 }
 
@@ -41,11 +36,7 @@ h1 {
 	position: fixed;
 	left:65px;
 	top:155px;
-
 	width:60%;
-=======
-
-	width: 100%;
 }
 
 h1 {
@@ -97,7 +88,6 @@ h1 {
 }
 #content p a.button:active {
 	background-position: 5px 200px;
->>>>>>> 297c629095fe379edbb9042b4cfd4bf451800752
 }
 
 #content {
@@ -150,7 +140,6 @@ h1 {
 #shrub01 {
 	position: fixed;
 	z-index: 200;
-<<<<<<< HEAD
 	top:490px;
 	left:-40px;
 
@@ -163,7 +152,6 @@ h1 {
 	left: -1px;
 
 	width: 100%;
-=======
 	top:410px;
 	left:-40px;
 
@@ -174,23 +162,22 @@ h1 {
 	position: fixed;
 	top:-8px;
 	left: -1px;
-
 	width: 100%;
->>>>>>> 297c629095fe379edbb9042b4cfd4bf451800752
 }
 
 #tree01 {
 	position: fixed;
 	left: 13px;
-<<<<<<< HEAD
 	top: 400px;
 	z-index: 100;
 
 }
-=======
+
+#tree01 img {
+	width: 57%;
 	top: 320px;
 	z-index: 100;
->>>>>>> 297c629095fe379edbb9042b4cfd4bf451800752
+}
 
 #tree01 img {
 	width: 57%;
@@ -203,7 +190,6 @@ h1 {
 #tree02 {
 	position: fixed;
 	right: -46px;
-<<<<<<< HEAD
 	top: 400px;
 	z-index: 100;
 }
@@ -252,6 +238,77 @@ h1 {
 	position: fixed;
 	z-index: 200;
 	top:500px;
+}
+
+#shrub_bottom img {
+	width: 95%
+}
+
+
+#shrub_left {
+	position: fixed;
+	left:15px;
+	top:70px;
+
+}
+
+#shrub_left img {
+	width: 60%;
+}
+
+#shrub_right {
+	position: fixed;
+	right:-10px;
+	top:70px;
+}
+
+#shrub_right img {
+	width: 60%;
+}
+
+#shrub_middletop img {
+	width: 45%;
+}
+
+#shrub_middletop {
+	position: fixed;
+	left:86px;
+	top:100px;
+
+}
+
+#shrub_middletop2 img {
+	width: 53%;
+}
+
+#shrub_middletop2 {
+	position: fixed;
+	left:195px;
+	top:130px;
+
+}
+
+
+#shrub_middlebottom img {
+	width: 45%;
+}
+
+#shrub_middlebottom {
+	position: fixed;
+	left:90px;
+	bottom:65px;
+
+}
+
+
+#shrub_middlebottom2 img {
+	width: 50%;
+}
+
+#shrub_middlebottom2 {
+	position: fixed;
+	left:32px;
+	top:268px;
 
 }
 
@@ -296,14 +353,11 @@ h1 {
 
 
 #shrub_middlebottom2 {
-	width: 60%;
-}
-=======
+	width: 60%;å
 	top: 320px;
 	z-index: 100;
 }
 
 #tree02 img {
 	width: 57%;
-}
->>>>>>> 297c629095fe379edbb9042b4cfd4bf451800752
+}å
