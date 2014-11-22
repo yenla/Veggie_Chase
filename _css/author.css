@@ -39,17 +39,6 @@ h1 {
 	width:60%;
 }
 
-h1 {
-	text-align: center;
-	font-family: Arial Rounded MT Bold;
-	font-size: 30px;
-	color:#ff792a;
-
-
-	position: fixed;
-	left:106px;
-	top:80px;
-}
 #stage {
 	position: fixed;
 	left:65px;
@@ -179,14 +168,6 @@ h1 {
 	z-index: 100;
 }
 
-#tree01 img {
-	width: 57%;
-}
-
-#tree01 img {
-	width: 57%;
-}
-
 #tree02 {
 	position: fixed;
 	right: -46px;
@@ -255,7 +236,6 @@ h1 {
 	width: 95%
 }
 
-
 #shrub_left {
 	position: fixed;
 	left:15px;
@@ -285,7 +265,6 @@ h1 {
 	position: fixed;
 	left:86px;
 	top:100px;
-
 }
 
 #shrub_middletop2 img {
@@ -296,9 +275,7 @@ h1 {
 	position: fixed;
 	left:195px;
 	top:130px;
-
 }
-
 
 #shrub_middlebottom img {
 	width: 45%;
@@ -308,9 +285,7 @@ h1 {
 	position: fixed;
 	left:90px;
 	bottom:65px;
-
 }
-
 
 #shrub_middlebottom2 img {
 	width: 50%;
@@ -320,19 +295,36 @@ h1 {
 	position: fixed;
 	left:32px;
 	top:268px;
+}
 
+#shrub_middlebottom img {
+	width: 45%;
+}
+
+#shrub_middlebottom {
+	position: fixed;
+	left:90px;
+	bottom:65px;
+}
+
+#shrub_middlebottom2 img {
+	width: 50%;
+}
+
+#shrub_middlebottom2 {
+	position: fixed;
+	left:32px;
+	top:268px;
 }
 
 #shrub_bottom img {
 	width: 95%
 }
 
-
 #shrub_left {
 	position: fixed;
 	left:15px;
 	top:70px;
-
 }
 
 #shrub_left img {
@@ -357,14 +349,12 @@ h1 {
 	width: 60%;
 }
 
-
 #shrub_middlebottom {
 	width: 60%;
 }
 
-
 #shrub_middlebottom2 {
-	width: 60%;å
+	width: 60%;
 	top: 320px;
 	z-index: 100;
 }
