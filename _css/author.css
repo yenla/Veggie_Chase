@@ -149,7 +149,7 @@ h1 {
 #shrub02 {
 	position: fixed;
 	top:-8px;
-	left: -1px;
+	left: -5px;
 
 	width: 100%;
 	top:410px;
@@ -161,7 +161,7 @@ h1 {
 #shrub02 {
 	position: fixed;
 	top:-8px;
-	left: -1px;
+	left: -5px;
 	width: 100%;
 }
 
@@ -199,6 +199,17 @@ h1 {
 }
 
 /*----------------------------------------Stages Page----------------------------------------*/
+
+#maze {
+	position: fixed;
+	
+	top: 50px;
+	left:0px;
+	z-index: 100;
+}
+
+
+#maze img {width: 100%}
 
 .level01_button {
 
@@ -360,4 +371,11 @@ h1 {
 
 #tree02 img {
 	width: 57%;
-}å
+}
+
+#level_shrub img {
+	position: fixed;
+	left:9px;
+	top:42px;
+	width: 95%;
+}

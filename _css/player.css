@@ -2,7 +2,7 @@ body
 {
 	margin: 0;
 	padding: 0;
-	background-color: #000000; 
+	background-color: #a6d8ff; 
 	color: #FFFFFF;
 	line-height: 1;
 	font-family: Helvetica, Tahoma, Verdana; 
@@ -116,5 +116,5 @@ div
 
 #infobg
 {
-	background-color: black;
+	background-color: #a6d8ff;
 }
