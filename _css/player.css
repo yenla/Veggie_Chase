@@ -13,6 +13,7 @@ h1 {
 	font-size: 120px;
 	margin: 0;
 	padding: 0;
+	color:#c00700;
 }
 
 p
@@ -69,8 +70,11 @@ div
 
 .pip
 {
-	background: white;
+	/*background:white;*/
+	/*background: #ff000a;*/
+	background-image: url("../_images/artichoke.png");
 	display: block;
+	padding: 8px;
 	left: 0px;
 	-webkit-transition: opacity 0.3s ease-in-out;
 	-khtml-transition: opacity 0.3s ease-in-out;
@@ -100,6 +104,7 @@ div
 	margin: auto;
 	margin-top: 5px;
 	text-align: center;
+	color:black;
 }
 
 #info

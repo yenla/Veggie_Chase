@@ -37,7 +37,7 @@ function Level(img, c)
 	}
 	
 	// revert the bg to black
-	context.fillStyle = "#000000";
+	context.fillStyle = "#a6d8ff";
 	context.fillRect(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
 	context.drawImage(img, 0, 0);
 	

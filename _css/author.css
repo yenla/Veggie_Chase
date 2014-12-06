@@ -21,11 +21,11 @@ header img {
 	width: 100%;
 }
 
-h1 {
+h2 {
 	text-align: center;
 	font-family: Arial Rounded MT Bold;
 	font-size: 30px;
-	color:#ff792a;
+	color:#d21206;
 
 
 	position: fixed;
@@ -217,7 +217,7 @@ h1 {
 
 /*----------------------------------------Level01 Page----------------------------------------*/
 
-#shrub_top {
+/*#shrub_top {
 	position: fixed;
 	top:35px;
 }
@@ -361,7 +361,7 @@ h1 {
 
 #tree02 img {
 	width: 57%;
-}
+}*/
 
 #level_shrub img {
 	position: fixed;
