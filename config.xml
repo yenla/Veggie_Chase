@@ -80,7 +80,6 @@ Yen La
 	<gap:splash src="res/screen/android/screen-xhdpi-portrait.png" gap:platform="android" gap:density="xhdpi" />
 	<gap:splash src="res/icon/android/icon-144-xxhdpi.png" gap:platform="android" gap:density="xxhdpi" />
 	<gap:splash src="res/screen/windows-phone/screen-portrait.png" gap:platform="winphone" />
-	<!-- <gap:plugin name="com.phonegap.plugins.barcodescanner" /> -->
 
 	<access origin="*" subdomains="true" />
 
