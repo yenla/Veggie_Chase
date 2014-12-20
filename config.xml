@@ -12,7 +12,6 @@
 <author href="yenladesign.com" email="skyeyenla@gmail.com">
 Yen La
 </author>
-
     <!-- We'll include the Barcode plugin as an example -->
     <!-- <gap:plugin name="com.phonegap.plugins.barcodescanner" /> -->
 </widget>
