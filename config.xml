@@ -1,24 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-    <widget xmlns   = "http://www.w3.org/ns/widgets"
+<widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
-    id          = "com.phonegap.example"
+    id          = "com.yenladesign.www"
     versionCode = "10"
     version     = "1.0.0" >
 
     <!-- versionCode is optional and Android only -->
 
-    <name>PhoneGap Example</name>
-
-    <description>
-      An example for phonegap build docs.
-    </description>
-
-    <author href="https://build.phonegap.com" email="support@phonegap.com<javascript:;>">
-
-
-      Hardeep Shoker
-    </author>
+    <name>Veggie Chase</name>
+	<description>A sample app for Up and Running with PhoneGap Build</description>
+<author href="yenladesign.com" email="skyeyenla@gmail.com">
+Yen La
+</author>
 
     <!-- We'll include the Barcode plugin as an example -->
-    <gap:plugin name="com.phonegap.plugins.barcodescanner" />
+    <!-- <gap:plugin name="com.phonegap.plugins.barcodescanner" /> -->
 </widget>
