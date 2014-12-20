@@ -37,6 +37,8 @@ div
 	position: absolute;
 	left: 0;
 	top: 0;
+
+	/*background-size: 280px;*/
 }
 
 .charcontainer
@@ -45,7 +47,13 @@ div
 	left: 0px;
 	position: absolute;
 	top: 0px;
+
+/*	background-size:50% */
 }
+
+/*.charcontainer div:first-child {
+	background-size:50% ;
+}*/
 
 .info {
 	left: 0;
