@@ -15,7 +15,7 @@ function Ghost(x, y, img)
 	this.idleTime = 3;
 	this.chasing = false;
 	var scope = this;
-	this.interval = setInterval(function(){scope.changeChase()}, 1000 * this.idleTime);
+	this.interval = setInterval(function(){scope.changeChase()}, 800 * this.idleTime); // 1000
 	
 	this.width = 32; 
 	this.height = 32;
@@ -103,7 +103,7 @@ function Ghost(x, y, img)
 		
 		var scope = this;
 		var time = this.chasing ? this.chaseTime : this.idleTime;
-		this.interval = setInterval(function(){scope.changeChase()}, 1000 * time) ;
+		this.interval = setInterval(function(){scope.changeChase()}, 800 * time) ; //1000
 	};
 	
 	this.reset = function()
